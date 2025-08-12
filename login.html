@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Login — SimpleShop</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body data-page="login">
+    <script type="text/javascript">
+        var utag_data = {
+        }
+        </script>
+        
+        <!-- Loading script asynchronously -->
+        <script type="text/javascript">
+            (function(a,b,c,d){
+            a='https://tags.tiqcdn.com/utag/nabler-sandbox/rohan.c/prod/utag.js';
+            b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+            a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+            })();
+        </script>
+  <header class="topbar">
+    <a class="brand" href="index.html">SimpleShop</a>
+    <nav class="navlinks">
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" id="cart-link">Cart (0)</a>
+      <a href="login.html" id="auth-link">Login</a>
+    </nav>
+  </header>
+
+  <main class="main container">
+    <div class="auth-grid">
+      <form id="login-form" class="card form-card">
+        <h3>Login</h3>
+        <label>Email<input id="login-email" type="email" required /></label>
+        <label>Password<input id="login-password" type="password" required /></label>
+        <div class="form-actions">
+          <button class="btn" type="submit">Login</button>
+          <a class="btn secondary" href="signup.html">Sign up</a>
+        </div>
+        <div id="login-msg" class="muted small"></div>
+      </form>
+
+      <div class="card">
+        <h3>Why sign in?</h3>
+        <ul class="small">
+          <li>Save shipping details</li>
+          <li>Faster checkout</li>
+          <li>Order history (local)</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer small muted">© 2025 SimpleShop</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

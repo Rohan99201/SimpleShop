@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Shipping Info — SimpleShop</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body data-page="shipping">
+    <script type="text/javascript">
+        var utag_data = {
+        }
+        </script>
+        
+        <!-- Loading script asynchronously -->
+        <script type="text/javascript">
+            (function(a,b,c,d){
+            a='https://tags.tiqcdn.com/utag/nabler-sandbox/rohan.c/prod/utag.js';
+            b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+            a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+            })();
+        </script>
+  <header class="topbar">
+    <a class="brand" href="index.html">SimpleShop</a>
+    <nav class="navlinks">
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" id="cart-link">Cart (0)</a>
+      <a href="login.html" id="auth-link">Login</a>
+    </nav>
+  </header>
+
+  <main class="main container">
+    <h2>Shipping Information</h2>
+    <form id="shipping-form" class="card form-card">
+      <label>Full name<input id="ship-name" required /></label>
+      <label>Phone<input id="ship-phone" required /></label>
+      <label>Address line 1<input id="ship-line1" required /></label>
+      <label>Address line 2<input id="ship-line2" /></label>
+      <label>City<input id="ship-city" required /></label>
+      <label>State / Region<input id="ship-region" required /></label>
+      <label>Postal code<input id="ship-postal" required /></label>
+      <label>Country<input id="ship-country" required /></label>
+
+      <div class="form-actions">
+        <a class="btn secondary" href="cart.html">Back to cart</a>
+        <button class="btn" type="submit">Continue to Payment</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer small muted">© 2025 SimpleShop</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

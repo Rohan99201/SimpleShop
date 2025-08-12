@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>SimpleShop — Home</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body data-page="home">
+    <script type="text/javascript">
+        var utag_data = {
+        }
+        </script>
+        
+        <!-- Loading script asynchronously -->
+        <script type="text/javascript">
+            (function(a,b,c,d){
+            a='https://tags.tiqcdn.com/utag/nabler-sandbox/rohan.c/prod/utag.js';
+            b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+            a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+            })();
+        </script>
+  <header class="topbar">
+    <a class="brand" href="index.html">SimpleShop</a>
+
+    <div class="search-wrap">
+      <input id="search-input" placeholder="Search products, e.g. headphones..." />
+    </div>
+
+    <nav class="navlinks">
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" id="cart-link">Cart (0)</a>
+      <a href="login.html" id="auth-link">Login</a>
+    </nav>
+  </header>
+
+  <main class="main container">
+    <section class="hero card">
+      <div>
+        <h1>Quality gadgets, fair prices</h1>
+        <p>Fast mock checkout, responsive design. Try the "Buy Now" flow.</p>
+      </div>
+      <img src="https://media.wired.com/photos/66eca667a714667d1d937ac0/3:2/w_1600%2Cc_limit/Transformers-One-Culture-T1_FP_107_rgb.jpg" alt="hero"/>
+    </section>
+
+    <section>
+      <h2 class="section-title">Products</h2>
+      <div id="product-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© 2025 SimpleShop • Demo</div>
+    <div class="small muted">This is a frontend-only demo — no real payments.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
